@@ -1,0 +1,27 @@
+.weather-display {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-display h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .weather-display p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .weather-display {
+      padding: 10px;
+    }
+  }
